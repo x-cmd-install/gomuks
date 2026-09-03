@@ -1,0 +1,63 @@
+about:
+  description: A Matrix client written in Go.
+  license: AGPL-3.0
+  homepage: https://gomuks.app
+  head: be93970
+  archived: false
+  latestVersion: v0.2608.0
+  collectedAt: 2026-09-03T04:16:19Z
+timeline:
+  created: 2018-02-24
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-16
+popularity:
+  star: 1720
+  watcher: 23
+  fork: 150
+  release: 20
+  contributor: 33
+  pullRequest: 89
+  issue: 540
+language:
+  Go: 1004172
+  TypeScript: 963638
+  CSS: 88057
+  JavaScript: 24769
+  HTML: 14478
+  C: 6871
+  Shell: 2057
+  Nix: 1072
+totalLine: 2105114
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-06-05
+    release: 3
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-03-07
+    release: 6
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-09-08
+    release: 10
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
