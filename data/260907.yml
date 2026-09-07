@@ -5,7 +5,7 @@ about:
   head: 2ea9abd
   archived: false
   latestVersion: "v0.2608.0"
-  collectedAt: 2026-09-07T05:46:08Z
+  collectedAt: 2026-09-07T18:44:37Z
 timeline:
   created: 2018-02-24
   lastCommit: 2026-09-06
@@ -86,7 +86,7 @@ total:
   commit: 2413
 ---
 path: /home/runner/.x-repo/github.com/tulir/gomuks
-collectedAt: 2026-09-07T05:46:13Z
+collectedAt: 2026-09-07T18:44:39Z
 loc:
   Json:
     code: 33527
@@ -271,7 +271,7 @@ checks:
       - 'Warn: release artifact v0.2604.0 does not have provenance: https://api.github.com/repos/gomuks/gomuks/releases/309878494'
 ---
 eget:
-  collectedAt: 2026-09-07T05:46:16+00:00
+  collectedAt: 2026-09-07T18:44:40+00:00
   platform:
     darwin/arm64:
       name:  gomuks-terminal-darwin-arm64
