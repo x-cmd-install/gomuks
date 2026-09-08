@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 81270272,
       "digest": "sha256:ba4ba821cc399255d7387f9c0cf258ed916bc44e98fd171524ef9b1486cfa7f0",
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2026-08-16T13:34:13Z",
       "updated_at": "2026-08-16T13:34:17Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-windows-amd64.exe"
