@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 80748544,
       "digest": "sha256:a196a13bee9c65a339480e509a51d971275335512747c3d543f6ddfea9ddd936",
-      "download_count": 96,
+      "download_count": 102,
       "created_at": "2026-08-16T13:33:29Z",
       "updated_at": "2026-08-16T13:33:34Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 77620756,
       "digest": "sha256:c388e8b6c925f8f38518841f51d09f908e4bf864317baad4cdb8e5c5c8564a15",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-08-16T13:33:34Z",
       "updated_at": "2026-08-16T13:33:38Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-arm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 78992096,
       "digest": "sha256:f37f12bfd9f5ead21fc89d0c0f8903a4df58aff6122b2ead61faacfb79185e69",
-      "download_count": 33,
+      "download_count": 37,
       "created_at": "2026-08-16T13:33:38Z",
       "updated_at": "2026-08-16T13:33:41Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-arm64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 109366784,
       "digest": "sha256:a11f839933a59eb708ea405bbe4f95758901391c0b844e0352f1917287b1eb3d",
-      "download_count": 25,
+      "download_count": 27,
       "created_at": "2026-08-16T13:33:45Z",
       "updated_at": "2026-08-16T13:33:50Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-desktop-linux-amd64.deb"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 101626864,
       "digest": "sha256:7258d6c6e81e7017011df94de337c6f24ce84ac52d70cf4c5713bec080073386",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-08-16T13:33:50Z",
       "updated_at": "2026-08-16T13:33:55Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-desktop-linux-arm64.deb"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 143383077,
       "digest": "sha256:6efa20dfb2ce32a7c446cd2830e998bfe51320305dca7f1a60b6c0100466f2b3",
-      "download_count": 8,
+      "download_count": 9,
       "created_at": "2026-08-16T13:33:55Z",
       "updated_at": "2026-08-16T13:34:01Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-desktop-macos-arm64.dmg"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 164531712,
       "digest": "sha256:318c892885f4a0f72dd92302c58d1358f3cf90a1929b09fce6c78c9949a6379b",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-16T13:34:01Z",
       "updated_at": "2026-08-16T13:34:09Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-desktop-windows-amd64.exe"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 15597872,
       "digest": "sha256:013a1ebd9d5a1d05805d732b9eb55cfeca657d3ef2a56c2638ca047a10412cc5",
-      "download_count": 64,
+      "download_count": 65,
       "created_at": "2026-08-16T13:34:09Z",
       "updated_at": "2026-08-16T13:34:10Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-terminal-amd64"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 15321348,
       "digest": "sha256:417ee514e686dad4369cd48fe1e44cfbed1537398658ede81104018dd7c2a35b",
-      "download_count": 4,
+      "download_count": 6,
       "created_at": "2026-08-16T13:34:10Z",
       "updated_at": "2026-08-16T13:34:11Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-terminal-arm"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 1159,
       "digest": "sha256:2584a3c851e7ae0a93139cc61d97105e92d9d6912a225ed5f4b49a2c97f08615",
-      "download_count": 28,
+      "download_count": 34,
       "created_at": "2026-08-16T13:34:17Z",
       "updated_at": "2026-08-16T13:34:18Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/sha256sums.txt"
