@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 80748544,
       "digest": "sha256:a196a13bee9c65a339480e509a51d971275335512747c3d543f6ddfea9ddd936",
-      "download_count": 110,
+      "download_count": 113,
       "created_at": "2026-08-16T13:33:29Z",
       "updated_at": "2026-08-16T13:33:34Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-amd64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 78992096,
       "digest": "sha256:f37f12bfd9f5ead21fc89d0c0f8903a4df58aff6122b2ead61faacfb79185e69",
-      "download_count": 40,
+      "download_count": 43,
       "created_at": "2026-08-16T13:33:38Z",
       "updated_at": "2026-08-16T13:33:41Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-arm64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 109366784,
       "digest": "sha256:a11f839933a59eb708ea405bbe4f95758901391c0b844e0352f1917287b1eb3d",
-      "download_count": 34,
+      "download_count": 35,
       "created_at": "2026-08-16T13:33:45Z",
       "updated_at": "2026-08-16T13:33:50Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/gomuks-desktop-linux-amd64.deb"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 1159,
       "digest": "sha256:2584a3c851e7ae0a93139cc61d97105e92d9d6912a225ed5f4b49a2c97f08615",
-      "download_count": 37,
+      "download_count": 40,
       "created_at": "2026-08-16T13:34:17Z",
       "updated_at": "2026-08-16T13:34:18Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2608.0/sha256sums.txt"
