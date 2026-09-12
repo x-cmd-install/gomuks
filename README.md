@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,720 · **Forks**: 150 · **Open issues**: 541 · **Contributors**: 33
+- **Stars**: 1,720 · **Forks**: 151 · **Open issues**: 541 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-13 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-13 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-15 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-16 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-21 | 10 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-13 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-14 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-14 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-16 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-17 | 10 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-22 | 10 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:42:30Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T05:41:16Z._
