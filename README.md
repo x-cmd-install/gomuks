@@ -14,15 +14,15 @@ x install gomuks
 
 ## Code insight
 
-Total: **91,249** lines of code across **416** files in the top 5 languages.
+Total: **91,344** lines of code across **416** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Json | 33,616 | 0 | 0 | 9 |
-| Go | 26,523 | 2,589 | 2,822 | 165 |
-| Tsx | 14,183 | 1,785 | 729 | 112 |
-| TypeScript | 10,237 | 1,154 | 1,016 | 90 |
-| Css | 4,171 | 24 | 801 | 40 |
+| Go | 26,523 | 2,591 | 2,822 | 165 |
+| Tsx | 14,213 | 1,785 | 729 | 112 |
+| TypeScript | 10,274 | 1,154 | 1,020 | 90 |
+| Css | 4,199 | 24 | 805 | 40 |
 
 ## OpenSSF Scorecard
 
@@ -42,8 +42,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v0.2608.0` (2026-08-16)
-- **Last commit**: 2026-09-15
+- **Latest**: `v0.2609.0` (2026-09-16)
+- **Last commit**: 2026-09-16
 - **Assets in release**: 14
 
 ## Popularity
@@ -52,37 +52,37 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 20 · **Merged PRs**: 121 · **Open PRs**: 20 · **Closed issues**: 483 · **Open issues**: 58 · **Commits**: 2435
+- **Releases**: 21 · **Merged PRs**: 121 · **Open PRs**: 20 · **Closed issues**: 483 · **Open issues**: 58 · **Commits**: 2439
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-18 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-18 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-21 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-26 | 10 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-18 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-19 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-19 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-21 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-22 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-27 | 11 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [gomuks-amd64](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-amd64) | 77.0 MiB | `other` |
-| [gomuks-arm](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-arm) | 74.0 MiB | `other` |
-| [gomuks-arm64](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-arm64) | 75.3 MiB | `other` |
-| [gomuks-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-darwin-arm64) | 74.5 MiB | `native/darwin/arm64` |
-| [gomuks-desktop-linux-amd64.deb](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-desktop-linux-amd64.deb) | 104.3 MiB | `native/linux/x64` |
-| [gomuks-desktop-linux-arm64.deb](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-desktop-linux-arm64.deb) | 96.9 MiB | `native/linux/arm64` |
-| [gomuks-desktop-macos-arm64.dmg](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-desktop-macos-arm64.dmg) | 136.7 MiB | `native/darwin/arm64` |
-| [gomuks-desktop-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-desktop-windows-amd64.exe) | 156.9 MiB | `native/win/x64` |
-| [gomuks-terminal-amd64](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-terminal-amd64) | 14.9 MiB | `other` |
-| [gomuks-terminal-arm](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-terminal-arm) | 14.6 MiB | `other` |
-| [gomuks-terminal-arm64](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-terminal-arm64) | 13.9 MiB | `other` |
-| [gomuks-terminal-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-terminal-darwin-arm64) | 13.6 MiB | `native/darwin/arm64` |
-| [gomuks-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2608.0/gomuks-windows-amd64.exe) | 77.5 MiB | `native/win/x64` |
-| [sha256sums.txt](https://github.com/tulir/gomuks/releases/download/v0.2608.0/sha256sums.txt) | 1.1 KiB | `other` |
+| [gomuks-amd64](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-amd64) | 78.1 MiB | `other` |
+| [gomuks-arm](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-arm) | 75.3 MiB | `other` |
+| [gomuks-arm64](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-arm64) | 76.4 MiB | `other` |
+| [gomuks-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-darwin-arm64) | 75.6 MiB | `native/darwin/arm64` |
+| [gomuks-desktop-linux-amd64.deb](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-desktop-linux-amd64.deb) | 105.7 MiB | `native/linux/x64` |
+| [gomuks-desktop-linux-arm64.deb](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-desktop-linux-arm64.deb) | 100.1 MiB | `native/linux/arm64` |
+| [gomuks-desktop-macos-arm64.dmg](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-desktop-macos-arm64.dmg) | 145.0 MiB | `native/darwin/arm64` |
+| [gomuks-desktop-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-desktop-windows-amd64.exe) | 170.9 MiB | `native/win/x64` |
+| [gomuks-terminal-amd64](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-terminal-amd64) | 15.0 MiB | `other` |
+| [gomuks-terminal-arm](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-terminal-arm) | 14.2 MiB | `other` |
+| [gomuks-terminal-arm64](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-terminal-arm64) | 14.0 MiB | `other` |
+| [gomuks-terminal-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-terminal-darwin-arm64) | 14.2 MiB | `native/darwin/arm64` |
+| [gomuks-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2609.0/gomuks-windows-amd64.exe) | 78.5 MiB | `native/win/x64` |
+| [sha256sums.txt](https://github.com/tulir/gomuks/releases/download/v0.2609.0/sha256sums.txt) | 1.1 KiB | `other` |
 
 ## Improve this data
 
@@ -93,4 +93,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:18:54Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:25:52Z._
