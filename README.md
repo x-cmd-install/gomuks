@@ -4,7 +4,7 @@
 
 A Matrix client written in Go.
 
-![gomuks](https://repo.x-cmd.io/gomuks.svg)
+[![x-cmd/install — gomuks Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gomuks.svg)](https://x-cmd.com/install/gomuks)
 
 ## Install
 
@@ -14,13 +14,13 @@ x install gomuks
 
 ## Code insight
 
-Total: **91,344** lines of code across **416** files in the top 5 languages.
+Total: **91,347** lines of code across **416** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Json | 33,616 | 0 | 0 | 9 |
-| Go | 26,523 | 2,591 | 2,822 | 165 |
-| Tsx | 14,213 | 1,785 | 729 | 112 |
+| Go | 26,520 | 2,589 | 2,822 | 165 |
+| Tsx | 14,219 | 1,786 | 729 | 112 |
 | TypeScript | 10,274 | 1,154 | 1,020 | 90 |
 | Css | 4,199 | 24 | 805 | 40 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.2609.0` (2026-09-16)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-18
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 1,722 · **Forks**: 151 · **Open issues**: 541 · **Contributors**: 33
+- **Stars**: 1,724 · **Forks**: 151 · **Open issues**: 541 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 121 · **Open PRs**: 20 · **Closed issues**: 483 · **Open issues**: 58 · **Commits**: 2439
+- **Releases**: 21 · **Merged PRs**: 121 · **Open PRs**: 21 · **Closed issues**: 483 · **Open issues**: 58 · **Commits**: 2444
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-23 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-28 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-21 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-22 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-24 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-25 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-30 | 11 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:05:55Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:04:01Z._
