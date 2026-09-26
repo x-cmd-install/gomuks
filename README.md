@@ -14,13 +14,13 @@ x install gomuks
 
 ## Code insight
 
-Total: **91,519** lines of code across **416** files in the top 5 languages.
+Total: **91,459** lines of code across **416** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Json | 33,616 | 0 | 0 | 9 |
-| Go | 26,634 | 2,591 | 2,830 | 165 |
-| Tsx | 14,245 | 1,785 | 729 | 112 |
+| Json | 33,559 | 0 | 0 | 9 |
+| Go | 26,589 | 2,591 | 2,829 | 165 |
+| Tsx | 14,246 | 1,785 | 729 | 112 |
 | TypeScript | 10,305 | 1,154 | 1,022 | 90 |
 | Css | 4,199 | 24 | 805 | 40 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.2609.0` (2026-09-16)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-25
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 1,727 · **Forks**: 152 · **Open issues**: 542 · **Contributors**: 33
+- **Stars**: 1,727 · **Forks**: 153 · **Open issues**: 543 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 122 · **Open PRs**: 21 · **Closed issues**: 483 · **Open issues**: 59 · **Commits**: 2456
+- **Releases**: 21 · **Merged PRs**: 122 · **Open PRs**: 21 · **Closed issues**: 483 · **Open issues**: 60 · **Commits**: 2464
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-27 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-27 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-29 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-30 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-05 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-28 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-28 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-30 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-01 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-06 | 11 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:55:02Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:49:47Z._
