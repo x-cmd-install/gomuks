@@ -14,14 +14,14 @@ x install gomuks
 
 ## Code insight
 
-Total: **92,025** lines of code across **417** files in the top 5 languages.
+Total: **92,061** lines of code across **417** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Json | 33,541 | 0 | 0 | 9 |
-| Go | 26,712 | 2,597 | 2,841 | 165 |
-| Tsx | 14,493 | 1,802 | 735 | 113 |
-| TypeScript | 10,330 | 1,154 | 1,027 | 90 |
+| Go | 26,717 | 2,597 | 2,841 | 165 |
+| Tsx | 14,522 | 1,802 | 735 | 113 |
+| TypeScript | 10,332 | 1,154 | 1,028 | 90 |
 | Css | 4,216 | 24 | 809 | 40 |
 
 ## OpenSSF Scorecard
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.2609.0` (2026-09-16)
-- **Last commit**: 2026-09-29
+- **Last commit**: 2026-09-30
 - **Assets in release**: 14
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 124 · **Open PRs**: 21 · **Closed issues**: 483 · **Open issues**: 60 · **Commits**: 2478
+- **Releases**: 21 · **Merged PRs**: 124 · **Open PRs**: 21 · **Closed issues**: 483 · **Open issues**: 60 · **Commits**: 2481
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-01 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-02 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-03 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-05 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-10 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-01 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-02 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-03 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-04 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-06 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-11 | 11 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:37:58Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T07:05:07Z._
