@@ -26,11 +26,11 @@ Total: **92,260** lines of code across **417** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4 / 10**
+Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,727 · **Forks**: 156 · **Open issues**: 544 · **Contributors**: 34
+- **Stars**: 1,728 · **Forks**: 156 · **Open issues**: 545 · **Contributors**: 34
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 124 · **Open PRs**: 20 · **Closed issues**: 483 · **Open issues**: 61 · **Commits**: 2497
+- **Releases**: 21 · **Merged PRs**: 124 · **Open PRs**: 20 · **Closed issues**: 483 · **Open issues**: 62 · **Commits**: 2497
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-07 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-08 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-09 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-11 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-16 | 11 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-07 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-08 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-09 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-10 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-12 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-17 | 11 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:35:46Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T06:55:55Z._
