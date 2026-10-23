@@ -14,12 +14,12 @@ x install gomuks
 
 ## Code insight
 
-Total: **92,698** lines of code across **418** files in the top 5 languages.
+Total: **92,705** lines of code across **418** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Json | 33,541 | 0 | 0 | 9 |
-| Go | 26,916 | 2,597 | 2,854 | 165 |
+| Go | 26,922 | 2,598 | 2,855 | 165 |
 | Tsx | 14,732 | 1,817 | 744 | 114 |
 | TypeScript | 10,463 | 1,154 | 1,043 | 90 |
 | Css | 4,263 | 24 | 818 | 40 |
@@ -31,8 +31,8 @@ Overall score: **3.9 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.2610.0` (2026-10-16)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-22
 - **Assets in release**: 14
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 124 · **Open PRs**: 24 · **Closed issues**: 487 · **Open issues**: 60 · **Commits**: 2528
+- **Releases**: 22 · **Merged PRs**: 125 · **Open PRs**: 24 · **Closed issues**: 487 · **Open issues**: 60 · **Commits**: 2529
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-27 | 12 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-01 | 12 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-23 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-28 | 12 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-02 | 12 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -84,6 +84,21 @@ Lowest-scoring checks:
 | [gomuks-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-windows-amd64.exe) | 79.6 MiB | `native/win/x64` |
 | [sha256sums.txt](https://github.com/tulir/gomuks/releases/download/v0.2610.0/sha256sums.txt) | 1.1 KiB | `other` |
 
+## Distribution status
+
+Reported by **66** distros on [repology.org](https://repology.org/project/gomuks). **4** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.3.1` | ⚠️ outdated |
+| Debian 14 | `0.3.1` | ⚠️ outdated |
+| Debian 13 | `0.3.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.3.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.3.0` | ⚠️ outdated |
+| Arch | `0.3.1` | ⚠️ outdated |
+| Void | `0.2610.0` | ⚠️ outdated |
+| Alpine edge | `0.3.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gomuks` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -93,4 +108,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:40:52Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:45:13Z._
