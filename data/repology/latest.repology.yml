@@ -1,26 +1,27 @@
-- repo: wikidata
-  srcname: Q104696560
-  visiblename: gomuks
-  version: "26.10"
-  origversion: null
-  status: newest
-  summary: terminal-based Matrix client
-  licenses:
-    - GNU Affero General Public License, version 3.0 or later
-- repo: debian_14
-  subrepo: forky/main
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
   srcname: gomuks
-  binnames:
-    - gomuks
   visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
+  version: 0.3.0
+  origversion: 0.3.0-bp155.1.8
   status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
+  summary: A terminal Matrix client written in Go
+  licenses:
+    - AGPL-3.0-only
   categories:
-    - misc
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-bp156.3.15
+  status: outdated
+  summary: A terminal Matrix client written in Go
+  licenses:
+    - AGPL-3.0-only
+  categories:
+    - Unspecified
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -315,6 +316,20 @@
     - tar@debian.org
   categories:
     - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - misc
 - repo: debian_unstable
   subrepo: sid/main
   srcname: gomuks
@@ -555,33 +570,6 @@
     - nixpkgs@cvpetegem.be
   licenses:
     - AGPL-3.0-or-later
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.2610.0
-  origversion: 0.2610.0_1
-  status: outdated
-  summary: Matrix web-client written in Go
-  maintainers:
-    - cat@thenight.club
-  licenses:
-    - AGPL-3.0-or-later
 - repo: openbsd
   srcname: net/gomuks
   binname: gomuks
@@ -594,30 +582,6 @@
     - ports@openbsd.org
   categories:
     - net
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-bp155.1.8
-  status: outdated
-  summary: A terminal Matrix client written in Go
-  licenses:
-    - AGPL-3.0-only
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-bp156.3.15
-  status: outdated
-  summary: A terminal Matrix client written in Go
-  licenses:
-    - AGPL-3.0-only
-  categories:
-    - Unspecified
 - repo: pacstall
   srcname: gomuks-deb
   binname: gomuks-deb
@@ -640,7 +604,7 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -655,7 +619,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -771,6 +735,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.2610.0
+  origversion: 0.2610.0-1
+  status: outdated
+  summary: A Matrix client written in Go
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: gomuks
   binname: gomuks
@@ -856,3 +830,39 @@
     - tar@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.2610.0
+  origversion: 0.2610.0_1
+  status: outdated
+  summary: Matrix web-client written in Go
+  maintainers:
+    - cat@thenight.club
+  licenses:
+    - AGPL-3.0-or-later
+- repo: wikidata
+  srcname: Q104696560
+  visiblename: gomuks
+  version: "26.10"
+  origversion: null
+  status: newest
+  summary: terminal-based Matrix client
+  licenses:
+    - GNU Affero General Public License, version 3.0 or later
