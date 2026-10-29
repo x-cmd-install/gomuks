@@ -1,3 +1,27 @@
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-bp155.1.8
+  status: outdated
+  summary: A terminal Matrix client written in Go
+  licenses:
+    - AGPL-3.0-only
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-bp156.3.15
+  status: outdated
+  summary: A terminal Matrix client written in Go
+  licenses:
+    - AGPL-3.0-only
+  categories:
+    - Unspecified
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -167,6 +191,18 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
+- repo: pkgsrc_2026_2
+  srcname: chat/gomuks
+  binname: gomuks
+  visiblename: chat/gomuks
+  version: 0.3.1
+  origversion: 0.3.1nb17
+  status: outdated
+  summary: Terminal Matrix client written in Go
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - chat
 - repo: alpine_3_23
   subrepo: community
   srcname: gomuks
@@ -409,6 +445,18 @@
     - AGPL-3
   categories:
     - net-im
+- repo: pkgsrc_2026_3
+  srcname: chat/gomuks
+  binname: gomuks
+  visiblename: chat/gomuks
+  version: 0.3.1
+  origversion: 0.3.1nb22
+  status: outdated
+  summary: Terminal Matrix client written in Go
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - chat
 - repo: liguros_stable
   srcname: net-im/gomuks
   visiblename: net-im/gomuks
@@ -558,30 +606,6 @@
     - ports@openbsd.org
   categories:
     - net
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-bp155.1.8
-  status: outdated
-  summary: A terminal Matrix client written in Go
-  licenses:
-    - AGPL-3.0-only
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-bp156.3.15
-  status: outdated
-  summary: A terminal Matrix client written in Go
-  licenses:
-    - AGPL-3.0-only
-  categories:
-    - Unspecified
 - repo: pacstall
   srcname: gomuks-deb
   binname: gomuks-deb
@@ -604,21 +628,6 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nilesh@debian.org
-    - tar@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot/main
   srcname: gomuks
   binnames:
@@ -633,30 +642,21 @@
     - tar@debian.org
   categories:
     - misc
-- repo: pkgsrc_2026_2
-  srcname: chat/gomuks
-  binname: gomuks
-  visiblename: chat/gomuks
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
   version: 0.3.1
-  origversion: 0.3.1nb17
+  origversion: 0.3.1+ds-1
   status: outdated
-  summary: Terminal Matrix client written in Go
   maintainers:
-    - pkgsrc-users@netbsd.org
+    - team+pkg-go@tracker.debian.org
+    - nilesh@debian.org
+    - tar@debian.org
   categories:
-    - chat
-- repo: pkgsrc_2026_3
-  srcname: chat/gomuks
-  binname: gomuks
-  visiblename: chat/gomuks
-  version: 0.3.1
-  origversion: 0.3.1nb22
-  status: outdated
-  summary: Terminal Matrix client written in Go
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - chat
+    - misc
 - repo: pkgsrc_current
   srcname: chat/gomuks
   binname: gomuks
@@ -756,21 +756,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2build1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - gurkan@phys.ethz.ch
-    - nilesh@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gomuks
   binnames:
@@ -781,6 +766,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - gurkan@phys.ethz.ch
+    - nilesh@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-2build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - gurkan@phys.ethz.ch
     - nilesh@debian.org
   categories:

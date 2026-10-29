@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 83024896,
       "digest": "sha256:c07241cdf824eacf0ce6ac8a471795469bdf663e91a36145386908b64f90eb43",
-      "download_count": 81,
+      "download_count": 84,
       "created_at": "2026-10-16T17:53:31Z",
       "updated_at": "2026-10-16T17:53:36Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-amd64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 81178304,
       "digest": "sha256:6786b5d66fb537c1aa5b3c65327535607ff7f752843fccd026c695345428f66c",
-      "download_count": 42,
+      "download_count": 43,
       "created_at": "2026-10-16T17:53:40Z",
       "updated_at": "2026-10-16T17:53:44Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-arm64"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 80477920,
       "digest": "sha256:5baff3b0e395276ff9352a934d9c593d43836a4a77e13497d9635ed7b2266ff8",
-      "download_count": 8,
+      "download_count": 9,
       "created_at": "2026-10-16T17:53:44Z",
       "updated_at": "2026-10-16T17:53:49Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-darwin-arm64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 111067272,
       "digest": "sha256:34b62d24110082077eb410ec38204caa9f3df685dbc1b896e0a4e3bfb4f70977",
-      "download_count": 28,
+      "download_count": 29,
       "created_at": "2026-10-16T17:53:49Z",
       "updated_at": "2026-10-16T17:53:54Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-desktop-linux-amd64.deb"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 153081030,
       "digest": "sha256:660df0a958aab89fdd65635d25ab2dfeb7d8ab5ed6f6821a6bd2bc08b2be957b",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-10-16T17:53:59Z",
       "updated_at": "2026-10-16T17:54:06Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-desktop-macos-arm64.dmg"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 179282432,
       "digest": "sha256:82f98f73b329a7e1949ac92962721b218bf0ed27005bdf90d41de57f5898c931",
-      "download_count": 5,
+      "download_count": 6,
       "created_at": "2026-10-16T17:54:06Z",
       "updated_at": "2026-10-16T17:54:14Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-desktop-windows-amd64.exe"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 15727696,
       "digest": "sha256:a9aa7aeee78d6c4c00760b9a8255de6c7e5ada137eaa8a38f4142394f9c9d01a",
-      "download_count": 27,
+      "download_count": 28,
       "created_at": "2026-10-16T17:54:14Z",
       "updated_at": "2026-10-16T17:54:15Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-terminal-amd64"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 83517440,
       "digest": "sha256:747696da661f032a418dcb1378cdc5082b033e3b852b42157edc8429f02f7ac2",
-      "download_count": 4,
+      "download_count": 6,
       "created_at": "2026-10-16T17:54:19Z",
       "updated_at": "2026-10-16T17:54:23Z",
       "browser_download_url": "https://github.com/gomuks/gomuks/releases/download/v0.2610.0/gomuks-windows-amd64.exe"
