@@ -1,36 +1,75 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: nix_stable_25_11
   srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2
-  status: outdated
-  summary: A terminal based Matrix client written in Go
-  licenses:
-    - AGPL3
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: gomuks
-  binname: gomuks
   visiblename: gomuks
   version: 0.3.1
-  origversion: 0.3.1-1
+  origversion: null
   status: outdated
-  summary: A terminal based Matrix client written in Go
+  summary: Terminal based Matrix client written in Go
+  maintainers:
+    - nixpkgs@cvpetegem.be
   licenses:
     - AGPL-3.0-or-later
-- repo: manjaro_stable
-  subrepo: extra
+- repo: nix_stable_26_05
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: Terminal based Matrix client written in Go
+  maintainers:
+    - nixpkgs@cvpetegem.be
+  licenses:
+    - AGPL-3.0-or-later
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: gomuks
   binname: gomuks
   visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2
+  version: 0.2610.0
+  origversion: 0.2610.0_1
   status: outdated
-  summary: A terminal based Matrix client written in Go
+  summary: Matrix web-client written in Go
+  maintainers:
+    - cat@thenight.club
   licenses:
-    - AGPL3
+    - AGPL-3.0-or-later
+- repo: wikidata
+  srcname: Q104696560
+  visiblename: gomuks
+  version: "26.10"
+  origversion: null
+  status: newest
+  summary: terminal-based Matrix client
+  licenses:
+    - GNU Affero General Public License, version 3.0 or later
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -490,6 +529,39 @@
     - AGPL-3
   categories:
     - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1-1
+  status: outdated
+  summary: A terminal based Matrix client written in Go
+  licenses:
+    - AGPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1-1
+  status: outdated
+  summary: A terminal based Matrix client written in Go
+  licenses:
+    - AGPL-3.0-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1-1
+  status: outdated
+  summary: A terminal based Matrix client written in Go
+  licenses:
+    - AGPL-3.0-or-later
 - repo: nix_stable_24_05
   srcname: gomuks
   visiblename: gomuks
@@ -520,28 +592,6 @@
   origversion: null
   status: outdated
   summary: A terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: nix_stable_25_11
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: Terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: nix_stable_26_05
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: Terminal based Matrix client written in Go
   maintainers:
     - nixpkgs@cvpetegem.be
   licenses:
@@ -604,7 +654,7 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -619,7 +669,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -756,21 +806,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2ubuntu0.24.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - gurkan@phys.ethz.ch
-    - nilesh@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: gomuks
   binnames:
@@ -781,6 +816,21 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - gurkan@phys.ethz.ch
+    - nilesh@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-2ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - gurkan@phys.ethz.ch
     - nilesh@debian.org
   categories:
@@ -830,39 +880,3 @@
     - tar@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.2610.0
-  origversion: 0.2610.0_1
-  status: outdated
-  summary: Matrix web-client written in Go
-  maintainers:
-    - cat@thenight.club
-  licenses:
-    - AGPL-3.0-or-later
-- repo: wikidata
-  srcname: Q104696560
-  visiblename: gomuks
-  version: "26.10"
-  origversion: null
-  status: newest
-  summary: terminal-based Matrix client
-  licenses:
-    - GNU Affero General Public License, version 3.0 or later
