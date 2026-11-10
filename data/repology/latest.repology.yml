@@ -1,75 +1,14 @@
-- repo: nix_stable_25_11
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: Terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: nix_stable_26_05
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: Terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: gomuks
   binname: gomuks
   visiblename: gomuks
-  version: 0.2610.0
-  origversion: 0.2610.0_1
+  version: 0.3.1
+  origversion: 0.3.1-1
   status: outdated
-  summary: Matrix web-client written in Go
-  maintainers:
-    - cat@thenight.club
+  summary: A terminal based Matrix client written in Go
   licenses:
     - AGPL-3.0-or-later
-- repo: wikidata
-  srcname: Q104696560
-  visiblename: gomuks
-  version: "26.10"
-  origversion: null
-  status: newest
-  summary: terminal-based Matrix client
-  licenses:
-    - GNU Affero General Public License, version 3.0 or later
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -187,6 +126,13 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
+- repo: chocolatey
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: A terminal based Matrix client written in Go.
 - repo: alpine_3_21
   subrepo: community
   srcname: gomuks
@@ -327,13 +273,6 @@
     - aperez@aur
   licenses:
     - GPL3
-- repo: chocolatey
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: A terminal based Matrix client written in Go.
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: gomuks
@@ -551,17 +490,6 @@
   summary: A terminal based Matrix client written in Go
   licenses:
     - AGPL-3.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1-1
-  status: outdated
-  summary: A terminal based Matrix client written in Go
-  licenses:
-    - AGPL-3.0-or-later
 - repo: nix_stable_24_05
   srcname: gomuks
   visiblename: gomuks
@@ -592,6 +520,28 @@
   origversion: null
   status: outdated
   summary: A terminal based Matrix client written in Go
+  maintainers:
+    - nixpkgs@cvpetegem.be
+  licenses:
+    - AGPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: Terminal based Matrix client written in Go
+  maintainers:
+    - nixpkgs@cvpetegem.be
+  licenses:
+    - AGPL-3.0-or-later
+- repo: nix_stable_26_05
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: Terminal based Matrix client written in Go
   maintainers:
     - nixpkgs@cvpetegem.be
   licenses:
@@ -654,7 +604,7 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -669,7 +619,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -806,21 +756,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2build1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - gurkan@phys.ethz.ch
-    - nilesh@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gomuks
   binnames:
@@ -831,6 +766,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - gurkan@phys.ethz.ch
+    - nilesh@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-2build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - gurkan@phys.ethz.ch
     - nilesh@debian.org
   categories:
@@ -880,3 +830,53 @@
     - tar@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.2610.0
+  origversion: 0.2610.0_1
+  status: outdated
+  summary: Matrix web-client written in Go
+  maintainers:
+    - cat@thenight.club
+  licenses:
+    - AGPL-3.0-or-later
+- repo: wikidata
+  srcname: Q104696560
+  visiblename: gomuks
+  version: "26.10"
+  origversion: null
+  status: newest
+  summary: terminal-based Matrix client
+  licenses:
+    - GNU Affero General Public License, version 3.0 or later
