@@ -1,14 +1,13 @@
-- repo: manjaro_unstable
+- repo: starkos
   subrepo: extra
   srcname: gomuks
-  binname: gomuks
   visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1-1
-  status: outdated
-  summary: A terminal based Matrix client written in Go
-  licenses:
-    - AGPL-3.0-or-later
+  version: "26.10"
+  origversion: 26.10-1
+  status: newest
+  summary: A Matrix client written in Go
+  maintainers:
+    - starkos@disroot.org
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -126,13 +125,6 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
-- repo: chocolatey
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: A terminal based Matrix client written in Go.
 - repo: alpine_3_21
   subrepo: community
   srcname: gomuks
@@ -198,6 +190,20 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: gomuks
@@ -273,6 +279,13 @@
     - aperez@aur
   licenses:
     - GPL3
+- repo: chocolatey
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: A terminal based Matrix client written in Go.
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: gomuks
@@ -365,7 +378,7 @@
   binname: gomuks
   visiblename: net-im/gomuks
   version: "26.10"
-  origversion: "26.10_1"
+  origversion: "26.10_2"
   status: newest
   summary: Web and Terminal Matrix client
   maintainers:
@@ -433,6 +446,17 @@
     - AGPL-3
   categories:
     - net-im
+- repo: stalix
+  srcname: bin/go/muks
+  binname: bin/go/muks
+  visiblename: bin/go/muks
+  version: "26.10"
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: liguros_develop
   srcname: net-im/gomuks
   visiblename: net-im/gomuks
@@ -480,6 +504,17 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: manjaro_testing
+  subrepo: extra
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1-1
+  status: outdated
+  summary: A terminal based Matrix client written in Go
+  licenses:
+    - AGPL-3.0-or-later
+- repo: manjaro_unstable
   subrepo: extra
   srcname: gomuks
   binname: gomuks
@@ -604,7 +639,7 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -619,7 +654,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gomuks
   binnames:
     - gomuks
@@ -662,7 +697,7 @@
   binname: gomuks
   visiblename: chat/gomuks
   version: 0.3.1
-  origversion: 0.3.1nb23
+  origversion: 0.3.1nb24
   status: outdated
   summary: Terminal Matrix client written in Go
   maintainers:
@@ -699,31 +734,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - misc
-- repo: stalix
-  srcname: bin/go/muks
-  binname: bin/go/muks
-  visiblename: bin/go/muks
-  version: "26.10"
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/go/muks
   binname: bin/go/muks
@@ -735,16 +745,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: starkos
-  subrepo: extra
-  srcname: gomuks
-  visiblename: gomuks
-  version: "26.10"
-  origversion: 26.10-1
-  status: newest
-  summary: A Matrix client written in Go
-  maintainers:
-    - starkos@disroot.org
 - repo: termux
   srcname: gomuks
   binname: gomuks
