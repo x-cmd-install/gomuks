@@ -14,11 +14,11 @@ x install gomuks
 
 ## 代码洞察
 
-合计: **93,094** 行代码（覆盖前 5 种语言、共 **419** 个文件）。
+合计: **93,133** 行代码（覆盖前 5 种语言、共 **419** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Json | 33,541 | 0 | 0 | 9 |
+| Json | 33,580 | 0 | 0 | 9 |
 | Go | 27,306 | 2,623 | 2,883 | 166 |
 | Tsx | 14,733 | 1,817 | 744 | 114 |
 | TypeScript | 10,465 | 1,154 | 1,043 | 90 |
@@ -42,8 +42,8 @@ x install gomuks
 
 ## 发布
 
-- **最新版本**: `v0.2610.0` (2026-10-16)
-- **最近提交**: 2026-11-11
+- **最新版本**: `v0.2611.0` (2026-11-16)
+- **最近提交**: 2026-11-16
 - **Release 含资产**: 14 个
 
 ## 流行度
@@ -52,41 +52,41 @@ x install gomuks
 
 ## 累计统计
 
-- **发布数**: 22 · **已合并 PR**: 128 · **开放 PR**: 25 · **已关闭 issue**: 487 · **开放 issue**: 62 · **提交数**: 2553
+- **发布数**: 23 · **已合并 PR**: 128 · **开放 PR**: 25 · **已关闭 issue**: 487 · **开放 issue**: 62 · **提交数**: 2554
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-18 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-21 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-26 | 12 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-18 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-19 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-21 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-22 | 12 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-27 | 13 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [gomuks-amd64](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-amd64) | 79.2 MiB | `other` |
-| [gomuks-arm](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-arm) | 76.4 MiB | `other` |
-| [gomuks-arm64](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-arm64) | 77.4 MiB | `other` |
-| [gomuks-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-darwin-arm64) | 76.7 MiB | `native/darwin/arm64` |
-| [gomuks-desktop-linux-amd64.deb](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-desktop-linux-amd64.deb) | 105.9 MiB | `native/linux/x64` |
-| [gomuks-desktop-linux-arm64.deb](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-desktop-linux-arm64.deb) | 100.4 MiB | `native/linux/arm64` |
-| [gomuks-desktop-macos-arm64.dmg](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-desktop-macos-arm64.dmg) | 146.0 MiB | `native/darwin/arm64` |
-| [gomuks-desktop-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-desktop-windows-amd64.exe) | 171.0 MiB | `native/win/x64` |
-| [gomuks-terminal-amd64](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-terminal-amd64) | 15.0 MiB | `other` |
-| [gomuks-terminal-arm](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-terminal-arm) | 14.3 MiB | `other` |
-| [gomuks-terminal-arm64](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-terminal-arm64) | 14.0 MiB | `other` |
-| [gomuks-terminal-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-terminal-darwin-arm64) | 14.2 MiB | `native/darwin/arm64` |
-| [gomuks-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2610.0/gomuks-windows-amd64.exe) | 79.6 MiB | `native/win/x64` |
-| [sha256sums.txt](https://github.com/tulir/gomuks/releases/download/v0.2610.0/sha256sums.txt) | 1.1 KiB | `other` |
+| [gomuks-amd64](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-amd64) | 80.0 MiB | `other` |
+| [gomuks-arm](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-arm) | 76.6 MiB | `other` |
+| [gomuks-arm64](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-arm64) | 78.3 MiB | `other` |
+| [gomuks-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-darwin-arm64) | 77.8 MiB | `native/darwin/arm64` |
+| [gomuks-desktop-linux-amd64.deb](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-desktop-linux-amd64.deb) | 106.2 MiB | `native/linux/x64` |
+| [gomuks-desktop-linux-arm64.deb](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-desktop-linux-arm64.deb) | 100.6 MiB | `native/linux/arm64` |
+| [gomuks-desktop-macos-arm64.dmg](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-desktop-macos-arm64.dmg) | 146.6 MiB | `native/darwin/arm64` |
+| [gomuks-desktop-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-desktop-windows-amd64.exe) | 171.6 MiB | `native/win/x64` |
+| [gomuks-terminal-amd64](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-terminal-amd64) | 15.0 MiB | `other` |
+| [gomuks-terminal-arm](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-terminal-arm) | 14.3 MiB | `other` |
+| [gomuks-terminal-arm64](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-terminal-arm64) | 14.0 MiB | `other` |
+| [gomuks-terminal-darwin-arm64](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-terminal-darwin-arm64) | 14.3 MiB | `native/darwin/arm64` |
+| [gomuks-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2611.0/gomuks-windows-amd64.exe) | 80.5 MiB | `native/win/x64` |
+| [sha256sums.txt](https://github.com/tulir/gomuks/releases/download/v0.2611.0/sha256sums.txt) | 1.1 KiB | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/gomuks) 上共有 **68** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**60** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/gomuks) 上共有 **68** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**64** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -108,4 +108,4 @@ gomuks 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:23:20Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T09:36:10Z._
