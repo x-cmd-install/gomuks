@@ -1,25 +1,32 @@
-- repo: stalix
-  srcname: bin/go/muks
-  binname: bin/go/muks
-  visiblename: bin/go/muks
-  version: "26.10"
-  origversion: null
+- repo: kali_rolling
+  subrepo: main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
   status: outdated
   maintainers:
-    - anton@samokhvalov.xyz
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
   categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/go/muks
-  binname: bin/go/muks
-  visiblename: bin/go/muks
-  version: "26.10"
-  origversion: null
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-1
   status: outdated
   maintainers:
-    - anton@samokhvalov.xyz
+    - team+pkg-go@tracker.debian.org
+    - nilesh@debian.org
+    - tar@debian.org
   categories:
-    - bin
+    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -202,16 +209,6 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
-- repo: starkos
-  subrepo: extra
-  srcname: gomuks
-  visiblename: gomuks
-  version: "26.11"
-  origversion: 26.11-1
-  status: newest
-  summary: A Matrix client written in Go
-  maintainers:
-    - starkos@disroot.org
 - repo: alpine_3_24
   subrepo: community
   srcname: gomuks
@@ -414,20 +411,6 @@
     - BSD-2
   categories:
     - net-im
-- repo: kali_rolling
-  subrepo: main
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: net-im/gomuks
   visiblename: net-im/gomuks
@@ -454,16 +437,18 @@
     - AGPL-3
   categories:
     - net-im
-- repo: termux
-  srcname: gomuks
+- repo: pkgsrc_2026_2
+  srcname: chat/gomuks
   binname: gomuks
-  visiblename: gomuks
-  version: "26.11"
-  origversion: null
-  status: newest
-  summary: A terminal Matrix client written in Go
+  visiblename: chat/gomuks
+  version: 0.3.1
+  origversion: 0.3.1nb17
+  status: outdated
+  summary: Terminal Matrix client written in Go
   maintainers:
-    - termux@github
+    - pkgsrc-users@netbsd.org
+  categories:
+    - chat
 - repo: liguros_develop
   srcname: net-im/gomuks
   visiblename: net-im/gomuks
@@ -646,21 +631,6 @@
   licenses:
     - AGPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nilesh@debian.org
-    - tar@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: gomuks
   binnames:
@@ -675,18 +645,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: pkgsrc_2026_2
-  srcname: chat/gomuks
-  binname: gomuks
-  visiblename: chat/gomuks
-  version: 0.3.1
-  origversion: 0.3.1nb17
-  status: outdated
-  summary: Terminal Matrix client written in Go
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - chat
 - repo: pkgsrc_2026_3
   srcname: chat/gomuks
   binname: gomuks
@@ -755,21 +713,48 @@
     - maytham@debian.org
   categories:
     - misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2build1
+- repo: stalix
+  srcname: bin/go/muks
+  binname: bin/go/muks
+  visiblename: bin/go/muks
+  version: "26.10"
+  origversion: null
   status: outdated
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - gurkan@phys.ethz.ch
-    - nilesh@debian.org
+    - anton@samokhvalov.xyz
   categories:
-    - universe/misc
+    - bin
+- repo: stalix_dev
+  srcname: bin/go/muks
+  binname: bin/go/muks
+  visiblename: bin/go/muks
+  version: "26.10"
+  origversion: null
+  status: outdated
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: extra
+  srcname: gomuks
+  visiblename: gomuks
+  version: "26.11"
+  origversion: 26.11-1
+  status: newest
+  summary: A Matrix client written in Go
+  maintainers:
+    - starkos@disroot.org
+- repo: termux
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: "26.11"
+  origversion: null
+  status: newest
+  summary: A terminal Matrix client written in Go
+  maintainers:
+    - termux@github
 - repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gomuks
@@ -781,6 +766,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - gurkan@phys.ethz.ch
+    - nilesh@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-2build1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - gurkan@phys.ethz.ch
     - nilesh@debian.org
   categories:
@@ -874,9 +874,9 @@
 - repo: wikidata
   srcname: Q104696560
   visiblename: gomuks
-  version: "26.10"
+  version: "26.11"
   origversion: null
-  status: outdated
+  status: newest
   summary: terminal-based Matrix client
   licenses:
     - GNU Affero General Public License, version 3.0 or later
