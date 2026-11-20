@@ -14,15 +14,15 @@ x install gomuks
 
 ## Code insight
 
-Total: **93,181** lines of code across **419** files in the top 5 languages.
+Total: **93,222** lines of code across **419** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Json | 33,580 | 0 | 0 | 9 |
 | Go | 27,306 | 2,623 | 2,883 | 166 |
-| Tsx | 14,733 | 1,817 | 744 | 114 |
-| TypeScript | 10,465 | 1,154 | 1,043 | 90 |
-| Css | 4,263 | 24 | 818 | 40 |
+| Tsx | 14,758 | 1,816 | 745 | 114 |
+| TypeScript | 10,476 | 1,155 | 1,043 | 90 |
+| Css | 4,268 | 24 | 819 | 40 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.2611.1` (2026-11-18)
-- **Last commit**: 2026-11-17
+- **Last commit**: 2026-11-20
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 1,735 · **Forks**: 156 · **Open issues**: 551 · **Contributors**: 34
+- **Stars**: 1,734 · **Forks**: 156 · **Open issues**: 551 · **Contributors**: 34
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 128 · **Open PRs**: 25 · **Closed issues**: 487 · **Open issues**: 64 · **Commits**: 2558
+- **Releases**: 24 · **Merged PRs**: 128 · **Open PRs**: 26 · **Closed issues**: 487 · **Open issues**: 64 · **Commits**: 2561
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-20 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-21 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-23 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-24 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-29 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-21 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-21 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-22 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-24 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-25 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-30 | 14 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **68** distros on [repology.org](https://repology.org/project/gomuks). **3** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
+Reported by **68** distros on [repology.org](https://repology.org/project/gomuks). **2** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,4 +108,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T08:20:36Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:02:05Z._
