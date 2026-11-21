@@ -14,13 +14,13 @@ x install gomuks
 
 ## Code insight
 
-Total: **93,222** lines of code across **419** files in the top 5 languages.
+Total: **93,225** lines of code across **419** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Json | 33,580 | 0 | 0 | 9 |
 | Go | 27,306 | 2,623 | 2,883 | 166 |
-| Tsx | 14,758 | 1,816 | 745 | 114 |
+| Tsx | 14,761 | 1,816 | 745 | 114 |
 | TypeScript | 10,476 | 1,155 | 1,043 | 90 |
 | Css | 4,268 | 24 | 819 | 40 |
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,734 · **Forks**: 156 · **Open issues**: 551 · **Contributors**: 34
+- **Stars**: 1,734 · **Forks**: 156 · **Open issues**: 552 · **Contributors**: 34
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 128 · **Open PRs**: 26 · **Closed issues**: 487 · **Open issues**: 64 · **Commits**: 2561
+- **Releases**: 24 · **Merged PRs**: 128 · **Open PRs**: 26 · **Closed issues**: 488 · **Open issues**: 64 · **Commits**: 2562
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-22 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-24 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-25 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-30 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-22 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-23 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-25 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-26 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-01 | 14 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:02:05Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:50:59Z._
