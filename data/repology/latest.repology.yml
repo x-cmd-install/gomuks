@@ -1,17 +1,81 @@
-- repo: kali_rolling
-  subrepo: main
+- repo: alpine_3_17
+  subrepo: community
   srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1+ds-3
+  binname: gomuks-doc
+  visiblename: gomuks-doc
+  version: 0.2.4
+  origversion: 0.2.4-r13
   status: outdated
+  summary: terminal-based Matrix client written in Go (documentation)
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - maytham@debian.org
-  categories:
-    - misc
+    - juw@posteo.de
+  licenses:
+    - AGPL-3.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.2.4
+  origversion: 0.2.4-r13
+  status: outdated
+  summary: terminal-based Matrix client written in Go
+  maintainers:
+    - juw@posteo.de
+  licenses:
+    - AGPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-r10
+  status: outdated
+  summary: terminal-based Matrix client written in Go
+  maintainers:
+    - juw@posteo.de
+  licenses:
+    - AGPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: gomuks
+  binname: gomuks-doc
+  visiblename: gomuks-doc
+  version: 0.3.0
+  origversion: 0.3.0-r10
+  status: outdated
+  summary: terminal-based Matrix client written in Go (documentation)
+  maintainers:
+    - juw@posteo.de
+  licenses:
+    - AGPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-r13
+  status: outdated
+  summary: terminal-based Matrix client written in Go
+  maintainers:
+    - juw@posteo.de
+  licenses:
+    - AGPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: gomuks
+  binname: gomuks-doc
+  visiblename: gomuks-doc
+  version: 0.3.0
+  origversion: 0.3.0-r13
+  status: outdated
+  summary: terminal-based Matrix client written in Go (documentation)
+  maintainers:
+    - juw@posteo.de
+  licenses:
+    - AGPL-3.0-or-later
 - repo: alpine_3_20
   subrepo: community
   srcname: gomuks
@@ -21,95 +85,6 @@
   origversion: 0.3.0-r15
   status: outdated
   summary: terminal-based Matrix client written in Go
-  maintainers:
-    - juw@posteo.de
-  licenses:
-    - AGPL-3.0-or-later
-- repo: nix_stable_25_11
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: Terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: gomuks
-  binname: gomuks-doc
-  visiblename: gomuks-doc
-  version: 0.2.4
-  origversion: 0.2.4-r13
-  status: outdated
-  summary: terminal-based Matrix client written in Go (documentation)
-  maintainers:
-    - juw@posteo.de
-  licenses:
-    - AGPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.2.4
-  origversion: 0.2.4-r13
-  status: outdated
-  summary: terminal-based Matrix client written in Go
-  maintainers:
-    - juw@posteo.de
-  licenses:
-    - AGPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-r10
-  status: outdated
-  summary: terminal-based Matrix client written in Go
-  maintainers:
-    - juw@posteo.de
-  licenses:
-    - AGPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: gomuks
-  binname: gomuks-doc
-  visiblename: gomuks-doc
-  version: 0.3.0
-  origversion: 0.3.0-r10
-  status: outdated
-  summary: terminal-based Matrix client written in Go (documentation)
-  maintainers:
-    - juw@posteo.de
-  licenses:
-    - AGPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-r13
-  status: outdated
-  summary: terminal-based Matrix client written in Go
-  maintainers:
-    - juw@posteo.de
-  licenses:
-    - AGPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: gomuks
-  binname: gomuks-doc
-  visiblename: gomuks-doc
-  version: 0.3.0
-  origversion: 0.3.0-r13
-  status: outdated
-  summary: terminal-based Matrix client written in Go (documentation)
   maintainers:
     - juw@posteo.de
   licenses:
@@ -407,6 +382,20 @@
     - BSD-2
   categories:
     - net-im
+- repo: kali_rolling
+  subrepo: main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - maytham@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: net-im/gomuks
   visiblename: net-im/gomuks
@@ -531,6 +520,17 @@
   origversion: null
   status: outdated
   summary: A terminal based Matrix client written in Go
+  maintainers:
+    - nixpkgs@cvpetegem.be
+  licenses:
+    - AGPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: Terminal based Matrix client written in Go
   maintainers:
     - nixpkgs@cvpetegem.be
   licenses:
