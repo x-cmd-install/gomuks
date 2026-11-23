@@ -1,3 +1,29 @@
+- repo: nix_stable_25_11
+  srcname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: null
+  status: outdated
+  summary: Terminal based Matrix client written in Go
+  maintainers:
+    - nixpkgs@cvpetegem.be
+  licenses:
+    - AGPL-3.0-or-later
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilesh@debian.org
+    - tar@debian.org
+  categories:
+    - misc
 - repo: alpine_3_17
   subrepo: community
   srcname: gomuks
@@ -204,6 +230,17 @@
   summary: Terminal-based Matrix client written in Go (documentation)
   maintainers:
     - wanghao03@loongson.cn
+  licenses:
+    - AGPL-3.0-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gomuks
+  binname: gomuks
+  visiblename: gomuks
+  version: 0.3.1
+  origversion: 0.3.1-1
+  status: outdated
+  summary: A terminal based Matrix client written in Go
   licenses:
     - AGPL-3.0-or-later
 - repo: alpine_edge
@@ -277,21 +314,17 @@
     - nilesh@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: nix_stable_25_05
   srcname: gomuks
-  binnames:
-    - gomuks
   visiblename: gomuks
   version: 0.3.1
-  origversion: 0.3.1+ds-1
+  origversion: null
   status: outdated
+  summary: A terminal based Matrix client written in Go
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nilesh@debian.org
-    - tar@debian.org
-  categories:
-    - misc
+    - nixpkgs@cvpetegem.be
+  licenses:
+    - AGPL-3.0-or-later
 - repo: debian_14
   subrepo: forky/main
   srcname: gomuks
@@ -479,17 +512,6 @@
   summary: A terminal based Matrix client written in Go
   licenses:
     - AGPL-3.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: gomuks
-  binname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: 0.3.1-1
-  status: outdated
-  summary: A terminal based Matrix client written in Go
-  licenses:
-    - AGPL-3.0-or-later
 - repo: nix_stable_24_05
   srcname: gomuks
   visiblename: gomuks
@@ -509,28 +531,6 @@
   origversion: null
   status: outdated
   summary: A terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: nix_stable_25_05
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: A terminal based Matrix client written in Go
-  maintainers:
-    - nixpkgs@cvpetegem.be
-  licenses:
-    - AGPL-3.0-or-later
-- repo: nix_stable_25_11
-  srcname: gomuks
-  visiblename: gomuks
-  version: 0.3.1
-  origversion: null
-  status: outdated
-  summary: Terminal based Matrix client written in Go
   maintainers:
     - nixpkgs@cvpetegem.be
   licenses:
@@ -756,21 +756,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
-  srcname: gomuks
-  binnames:
-    - gomuks
-  visiblename: gomuks
-  version: 0.3.0
-  origversion: 0.3.0-2ubuntu0.24.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - gurkan@phys.ethz.ch
-    - nilesh@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: gomuks
   binnames:
@@ -781,6 +766,21 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - gurkan@phys.ethz.ch
+    - nilesh@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: gomuks
+  binnames:
+    - gomuks
+  visiblename: gomuks
+  version: 0.3.0
+  origversion: 0.3.0-2ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - gurkan@phys.ethz.ch
     - nilesh@debian.org
   categories:
