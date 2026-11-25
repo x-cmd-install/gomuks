@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 13 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 13 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 14 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -84,21 +84,6 @@ Lowest-scoring checks:
 | [gomuks-windows-amd64.exe](https://github.com/tulir/gomuks/releases/download/v0.2611.1/gomuks-windows-amd64.exe) | 80.5 MiB | `native/win/x64` |
 | [sha256sums.txt](https://github.com/tulir/gomuks/releases/download/v0.2611.1/sha256sums.txt) | 1.1 KiB | `other` |
 
-## Distribution status
-
-Reported by **68** distros on [repology.org](https://repology.org/project/gomuks). **2** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.3.1` | ⚠️ outdated |
-| Debian 14 | `0.3.1` | ⚠️ outdated |
-| Debian 13 | `0.3.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.3.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.3.0` | ⚠️ outdated |
-| Arch | `0.3.1` | ⚠️ outdated |
-| Void | `0.2610.0` | ⚠️ outdated |
-| Alpine edge | `0.3.1` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gomuks` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -108,4 +93,4 @@ Install metadata for gomuks lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:22:28Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:15:20Z._
